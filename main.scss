@@ -32,8 +32,8 @@
 /*--------------------------Variables---------------------------*/
 /*--------------------------------------------------------------*/
 
-$c1-yellow: #ffffcb;
-$c2-green: #b2c08a;
+$c1-yellow: #ffe55a;
+$c2-green: #00591c;
 $c3-white: #ffffff;
 $c4-black: rgba(16, 24, 21, 0.93);
 $black: #000100;
@@ -318,7 +318,6 @@ h5 {
   position: fixed;
   width: 100%;
   font-weight: bold;
-  width: 100%;
   .navLinks {
     display: flex;
     text-align: center;
@@ -345,14 +344,13 @@ h5 {
 .quarters {
   display: flex;
   flex-wrap: wrap;
-  z-index: -1000;
+  z-index: -999;
   justify-content: center;
   align-items: center;
   height: 34vw;
   min-height: 350px;
   .quarter {
     flex-basis: 50%;
-    opacity: 33%;
     width: 50%;
     height: 50%;
     z-index: -200;
@@ -521,6 +519,7 @@ address {
   grid-auto-flow: dense;
   gap: .5rem;
   width: 100%;
+  justify-content: center;
 }
 
 .shop_item {
